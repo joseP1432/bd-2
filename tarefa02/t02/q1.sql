@@ -7,4 +7,4 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-select f.nome, calcular_idade(f.datanasc) from funcionario f
+SELECT f.nome, calcular_idade(f.datanasc) FROM funcionario f
