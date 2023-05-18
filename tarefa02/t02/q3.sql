@@ -6,7 +6,6 @@ DECLARE
   func_nome VARCHAR;
   func_calc_idade NUMERIC;
 BEGIN
-  -- Selecionar cada departamento
   FOR dep_sigla, dep_media_idade IN 
   SELECT departamento, media_idade FROM media_idade()
   LOOP	
